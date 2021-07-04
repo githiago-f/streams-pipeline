@@ -1,0 +1,20 @@
+{
+  "name": "streams-pipeline",
+  "version": "1.0.0",
+  "description": "Node JS streams pipeline testing",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/githiago-f/streams-pipeline.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/githiago-f/streams-pipeline/issues"
+  },
+  "homepage": "https://github.com/githiago-f/streams-pipeline#readme"
+}
