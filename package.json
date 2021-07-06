@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/githiago-f/streams-pipeline/issues"
   },
-  "homepage": "https://github.com/githiago-f/streams-pipeline#readme"
+  "homepage": "https://github.com/githiago-f/streams-pipeline#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
