@@ -34,7 +34,9 @@ app.get('/video', async (req, res) => {
 
   const stream = createReadStream(path, { start, end });
   stream.on('open', () => stream.pipe(res))
-    .on('close', err => res.end(err));
+    .on('close', err => res.end(err))
+    .on('error', err => res.end(err))
+    .on('end', () => res.end());
 });
 
 app.listen(3000, () => {
